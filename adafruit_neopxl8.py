@@ -163,7 +163,7 @@ class NeoPxl8(adafruit_pixelbuf.PixelBuf):
 
         self._sm = rp2pio.StateMachine(
             assembled,
-            frequency=800_000 * 16,
+            frequency=200_000 * 16,
             first_out_pin=data0,
             out_pin_count=num_strands,
             first_set_pin=data0,
